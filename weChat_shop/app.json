@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/food_detail/food_detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "食食来",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#456",
+    "selectedColor": "#444444",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "icon/icon1.png",
+        "selectedIconPath": "icon/icon1-active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "购物车",
+        "iconPath": "icon/购物车空.png",
+        "selectedIconPath": "icon/购物车满.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "icon/icon1.png",
+        "selectedIconPath": "icon/icon1-active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

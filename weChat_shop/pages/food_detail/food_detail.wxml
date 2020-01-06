@@ -1,0 +1,14 @@
+<!--pages/food_detail/food_detail.wxml-->
+<view>
+  <image class="img" src="{{food.food_img}}"></image>
+  <text class="name">{{food.food_name}}</text>
+  <view class="price-car">
+    <text class="iconfont icon-gouwuchekong shop-car" bindtap="addShop" data-id="{{food.food_id}}"></text>
+    <text class="price">{{food.food_price}}元</text>
+  </view>
+  <view class="dec">
+  <text>
+  详情描述:{{food.food_dec}}
+  </text>
+  </view>
+</view>
